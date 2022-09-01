@@ -11,10 +11,9 @@ html {
 }
 
 .container{
-    width: 80%;
+    width: 60%;
     margin: auto;
     margin-top: 5em;
-    border: 2px solid black;
     text-align: center;
 }
 
@@ -28,15 +27,36 @@ html {
 }
 
 .schede{
-    background-color: #181717;
+    background-color: #0f0e17;
     color: white;
-    width: calc(80%/3);
-    border: 2px solid purple;
+    width: calc( 100% / 3 - 2em );
     margin: 1em;
-    display: inline-block;
+    float: left; 
 }
 
 img{
     float: left;
-    height: 4em;
+    height: 5em;
+    margin-right: 1em;
+}
+
+.raccolta::after{
+     content: "";
+     display: table;
+     clear: both;
+}
+
+h5{
+    color: white;
+    text-align: left;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+p{
+    margin-bottom: 4em;
+}
+
+h5:last-child{
+    color: skyblue
 }
