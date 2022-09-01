@@ -1,8 +1,10 @@
+/* RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 html {
     font-family: 'Fredoka', sans-serif;
@@ -10,6 +12,7 @@ html {
     color: black;
 }
 
+/* CONTENITORE PRINCIPALE */
 .container{
     width: 60%;
     margin: auto;
@@ -26,6 +29,7 @@ html {
     color: #181717;
 }
 
+/* SINGOLE SCHEDE */
 .schede{
     background-color: #0f0e17;
     color: white;
@@ -34,6 +38,7 @@ html {
     float: left;
 }
 
+/* IMAMGINI PROFILI TEAM */
 img{
     float: left;
     height: 5.5em;
@@ -46,6 +51,7 @@ img{
      clear: both;
 }
 
+/* CREDENZIALI TEAM  */
 h5{
     color: white;
     text-align: left;
