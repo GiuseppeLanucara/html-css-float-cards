@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 62,5%;
+    color: black;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    margin-top: 5em;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.container>h1{
+    color:#e53170;
+    margin-bottom: 1.5em;
+}
+
+.container:last-child{
+    color: #181717;
+}
