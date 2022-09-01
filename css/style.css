@@ -11,7 +11,7 @@ html {
 }
 
 .container{
-    width: 60%;
+    width: 80%;
     margin: auto;
     margin-top: 5em;
     border: 2px solid black;
@@ -25,4 +25,18 @@ html {
 
 .container:last-child{
     color: #181717;
+}
+
+.schede{
+    background-color: #181717;
+    color: white;
+    width: calc(80%/3);
+    border: 2px solid purple;
+    margin: 1em;
+    display: inline-block;
+}
+
+img{
+    float: left;
+    height: 4em;
 }
